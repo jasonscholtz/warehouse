@@ -1,0 +1,28 @@
+body {
+  padding: 1rem;
+}
+
+nav {
+  font-family: "Work Sans", sans-serif;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+nav li {
+  display: block;
+  padding: .5rem 0;
+}
+
+nav a:link, nav a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover, nav a:active {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
