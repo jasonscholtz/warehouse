@@ -1,6 +1,10 @@
+/* universal styles */
+
 body {
   padding: 1rem;
 }
+
+/* banner */
 
 nav {
   font-family: "Work Sans", sans-serif;
@@ -26,3 +30,9 @@ nav a:hover, nav a:active {
   font-style: italic;
   color: black;
 }
+
+/* about */
+
+/* visit */
+
+/* contact */
