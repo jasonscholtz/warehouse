@@ -1,17 +1,101 @@
 /* universal styles */
+body, html {
+  height: 100%;
+  background-color: #fefbd8
+}
 
 body {
+  padding-left: 1rem;
+  line-height: 1.4;
+}
+
+/* page styles */
+
+.page-container {
+  margin-bottom: 2rem;
+}
+
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.page-text {
+  max-width: 45%;
   padding: 1rem;
+}
+
+.page-img {
+  max-width: 50%;
+  max-height: 100%;
+}
+
+.page-img img {
+  max-width: 100%;
+}
+
+/* body text */
+
+h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0 1rem;
+  color: #618685;
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  color: #36486b;
+}
+
+p {
+
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  max-width: 70ch;
+  padding: 1rem;
+  color: #36486b;
+}
+
+.lead {
+  font-weight: 700;
+}
+
+/* links */
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #36486b;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: #4040a1;
 }
 
 /* banner */
 
+#banner {
+  height: 100%;
+}
+
 nav {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2rem;
+  max-width: 20%;
 }
 
 .logo {
-  font-size: 2rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #618685;
   margin-bottom: 1rem;
 }
 
@@ -19,20 +103,3 @@ nav li {
   display: block;
   padding: .5rem 0;
 }
-
-nav a:link, nav a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-nav a:hover, nav a:active {
-  text-decoration: none;
-  font-style: italic;
-  color: black;
-}
-
-/* about */
-
-/* visit */
-
-/* contact */
