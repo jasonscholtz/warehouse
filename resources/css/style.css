@@ -103,3 +103,27 @@ nav li {
   display: block;
   padding: .5rem 0;
 }
+
+/* carousel */
+
+#carousel {
+    width: 100%;
+    overflow: visible;
+    white-space: nowrap;
+    overflow-y: scroll;
+}
+
+#carousel .slide {
+    display: inline;
+}
+
+#carousel .slide img {
+  max-width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+  #carousel .slide img {
+    max-width: 90%;
+    display: block;
+  }
+}
